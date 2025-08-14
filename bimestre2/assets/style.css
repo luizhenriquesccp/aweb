@@ -8,23 +8,35 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.315);
 }
 header h1 {
+  padding-left: 15%;
   font-size: 5vw;
 }
 header nav {
   padding-bottom: 24px;
 }
+.user{
+  width: 8vw;
+  height: 8vw;
+  border: 1px solid #fe5e0d;
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+
+}
 nav ul {
-  display: flex;
-  justify-content: flex-end;
+  right: 0;
+  position: absolute;
   list-style: none;
-  float: right;
 }
 nav a {
   color: rgb(255, 255, 255);
   text-decoration: none;
+  margin: 0 10px;
   font-weight: bold;
 }
 nav ul li {
+  display: inline-block;
+  padding: 0.9px;
   margin-right: 10px;
   font-size: 0.7em;
 }
@@ -88,7 +100,7 @@ main {
 }
 
 .sobre_min:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 
 .curiosidades {
@@ -99,7 +111,7 @@ main {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.196);
 }
 .curiosidades:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 .curiosidades ul {
   list-style: none;
@@ -209,7 +221,7 @@ footer section{
   display: flex;
   flex-direction: row;
 }
-footer .mapa_site{
+.mapa_site{
   margin: 10px 0 0 40px;
 }
 footer ul {
@@ -245,7 +257,7 @@ footer i {
 }
 .mapa_site{
   border-right: 1px solid #867d79;
-  padding-right: 30vw;
+  padding-right: 10vw;
 }
 footer h5 {
   margin-bottom: 16px;
@@ -253,11 +265,18 @@ footer h5 {
 }
 footer .midias_sociais i {
   font-size: 2.5em;
-  margin: 12px;
+  margin: 5px;
   padding-left: 6vw;
-  transition: color 0.2s, transform 0.2s;
 }
 
 footer .midias_sociais a:hover i {
   transform: scale(1.15);
+}
+.contato{
+  border-left: 1px solid #867d79;
+  padding-left: 10vw;
+  margin: 10px;
+}
+.contato h5{
+  padding: 10px;
 }
