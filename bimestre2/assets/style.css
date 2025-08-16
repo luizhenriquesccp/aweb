@@ -72,6 +72,7 @@ main {
 .hero-content div:hover{
   background-color: white;
   color: #fe5e0d;
+  cursor: pointer;
   transform: scale(1.08);
   border: 2px solid #fe5e0d;
   transition: background-color 0.3s, transform 0.3s, color 0.3s;
